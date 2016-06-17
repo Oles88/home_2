@@ -2,8 +2,26 @@
 <html>
     <head>
         <title> </title>
+         <script>
+       function f1 {
+           var canvas =
+           document.getElementById("smlRectangle");
+           context = canvas.getContext("2d");
+           context.fillStyle = "rgb(0,0,255)";
+           context.fillRect(10, 20, 200, 100);
+       }
+         
+         
+     </script>
+
     </head>
-    <body>
+    <body onload = "f1();">
+        
+        <canvas id="smlRectangle" height="100" width="200"></canvas>
+        <br>
+<br>       <br>
+<br>       
+        
  <figure>
      <img src="Catvampire.jpg" alt="" width="100" height="100"  />
      <img src="friend.jpg" alt="" width="100" height="100"  />
@@ -19,8 +37,6 @@
       <br>
 <br> 
        
-       <canvas id="smlRectangle" height="100"
-width="200"></canvas>
-
+    
     </body>
 </html>
